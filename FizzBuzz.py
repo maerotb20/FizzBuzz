@@ -1,4 +1,10 @@
-limit =100
+import sys
+
+if len(sys.argv) > 1:
+	limit = int(sys.argv[1])
+else:
+	limit = 100	
+
 
 for count in range(0,limit):
 	if not(count %5) and not (count %3):
