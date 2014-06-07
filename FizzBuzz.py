@@ -1,4 +1,6 @@
-for count in range(0,101):
+limit =100
+
+for count in range(0,limit):
 	if not(count %5) and not (count %3):
 		print "FizzBuzz"
 	elif not(count % 3):
@@ -8,4 +10,3 @@ for count in range(0,101):
 	else:
 		print count
 
-					
